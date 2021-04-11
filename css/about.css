@@ -1,20 +1,9 @@
-#design-cast {
-    position: relative;
-    overflow: hidden;
+#content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.member {
-    float: left;
-    width: 31%;
-    margin: 1% 1% 45px 1%;
-}
-
-.name {
-    position: absolute;
-    bottom: 0px;
-}
-
-.member img {
-    width: 100%;
-    display: block;
+#content img {
+    width: 25%;
+    min-width: 100px;
 }
