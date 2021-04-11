@@ -15,12 +15,12 @@
         .w3-bar-block .w3-bar-item {padding:20px}
       </style>
     
-    <title>Chess Prime</title>
+    <title>Chess Prime Matchmaking</title>
   </head>
-  <body>
+  <body style = "background-color: rgb(49, 46, 43);">
     <nav class="navbar navbar-expand-lg navbar-light" style ="background-color: rgb(83, 113, 51);">
         <a class="navbar-brand" href="index.html">
-            <img src=/img/logo.png" width="30" height="30" alt=""> Chess Prime
+            <img src=/img/logo.png" width="30" height="30" alt="Logo"> Chess Prime
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
                 Create Game
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="player.html">Player</a>
+                <a class="dropdown-item" href="#">Player</a>
                 <a class="dropdown-item" href="matchmaking.html">AI</a>
               </div>
             </li>
@@ -50,6 +50,9 @@
           </form>
         </div>
       </nav>
+    <div class="w3-row-padding w3-padding-16 w3-center" id = "game">   
+        <iframe src="https://play.chessbase.com" style="width:760px;height:480px"></iframe>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
