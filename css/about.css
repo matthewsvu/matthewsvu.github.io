@@ -5,6 +5,12 @@
     width: 50%;
   }
 
+  img {
+    border: 5px solid rgb(83, 113, 51);
+  }
+
+  body {background-color: rgb(49, 46, 43);}
+
   h4 {
     font-size: 32px;
   }
