@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Chess Prime | Login</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SITE FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(83, 113, 51);">
+        <a class="navbar-brand" href="index.html" style="color:white">Chess Prime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" style="color:white">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:white">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
+                        Create Game
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="player.html">Player</a>
+                        <a class="dropdown-item" href="matchmaking.html">AI</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search: (ID/Username)"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Login form -->
+
+    <div>
+        <img src="./img/logo.png" alt="Chess Prime logo">
+        <h2 style="text-align: center;">Login</h2>
+        <p style="text-align: center;">Please enter your username and password</p>
+        <form action="landing.html" method="POST">
+            <div>
+                <label style="font-weight: 700;">Username</label>
+                <input type="text" name="text" placeholder="Enter Username" required />
+            </div>
+            <div>
+                <label style="font-weight: 700;">Password</label>
+                <input type="password" name="password" placeholder="Enter Password" required />
+            </div>
+            <div>
+                <button onclick="login()" type="submit">Login</button>
+            </div>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <p>Don't have an account? <a style="text-decoration: none;" href="index.html">Register here!</a></p>
+        </form>
+    </div>
+
+    <footer style=text-align:center;padding:3px>
+        <p style="color:white"><b>Contact Us!</b><br>
+            <a href="mailto:support@chessprime.com">support@chessprime.com</a>
+        </p>
+        <p style="color:white"><b>Chess Prime 2021. All rights reserved.</b>
+    </footer>
+
+</body>
+
+</html>
