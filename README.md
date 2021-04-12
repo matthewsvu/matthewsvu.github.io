@@ -1,2 +1,2 @@
 # matthewsvu.github.io
-# matthewsvu.github.io
+Chess Prime Software Engineering website
