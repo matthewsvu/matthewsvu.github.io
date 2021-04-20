@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Chess Prime</title>
+  <title>Chess Prime | Tactics</title>
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -27,36 +27,15 @@
     h4 {
       font-family: "Karma", sans-serif
     }
-    
-    h3{
-      font-size: 14px;
-      color: white;
-    }
+
     .w3-bar-block .w3-bar-item {
       padding: 20px
     }
-
-    .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
   </style>
-
 
 </head>
 
 <body style="background-color: rgb(49, 46, 43);">
-  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(83, 113, 51);">
     <a class="navbar-brand" href="index.html" style="color:white">
       <img src="./img/logo.png" width="30" height="30" alt=""> Chess Prime
@@ -78,7 +57,7 @@
           <a class="nav-link" href="login.html" style="color:white">Log In</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color:white" role="button"
+          <a class="nav-link dropdown-toggle" href="#" style="color:white" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Create Game
           </a>
@@ -95,20 +74,8 @@
       </form>
     </div>
   </nav>
-  <h1 style="text-align:center;white-space:pre;color:white">
-    <b>Welcome to Chess Prime!</b>
-  </h1>
-  <div id = "Join Match!" style=text-align:center;color:white;padding:10px50px10px>
-    <h1>♔Player Match♔</h1>
-    <a href="player.html" class="button">🧍</a>
-    <h2>♕AI Match♕</h2>
-    <a href="matchmaking.html" class="button">🤖</a>
-
-  </div>
-
-  <div id = "news" style=text-align:center;color:white;padding:10px50px10px>
-      <h1>📰Chess News📰</h1>
-      <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.chess.com%2Frss%2Fnews&limit=3&showtitle=false&type=js"></script>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="game">
+    <iframe src="https://livetactics.chessbase.com" style="width:760px;height:480px"></iframe>
   </div>
 
   <footer style=text-align:center;padding:3px>
@@ -119,7 +86,6 @@
   </footer>
 
   <!-- Optional JavaScript -->
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
